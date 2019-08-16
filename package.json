@@ -1,0 +1,26 @@
+{
+  "name": "json-fns",
+  "version": "1.0.0",
+  "description": "JSON parser/stringifier that supports functions and regexp",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm t"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogeriopvl/json-fns.git"
+  },
+  "keywords": [
+    "json",
+    "stringify",
+    "parse",
+    "function",
+    "regexp"
+  ],
+  "author": "rogeriopvl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rogeriopvl/json-fns/issues"
+  },
+  "homepage": "https://github.com/rogeriopvl/json-fns#readme"
+}
