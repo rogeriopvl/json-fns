@@ -4,7 +4,10 @@
   "description": "JSON parser/stringifier that supports functions and regexp",
   "main": "index.js",
   "scripts": {
-    "test": "npm t"
+    "pretest": "npm run lint",
+    "test": "tape *.test.js",
+    "lint": "eslint **/*.js",
+    "lint:fix": "prettier --write *.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +25,16 @@
   "bugs": {
     "url": "https://github.com/rogeriopvl/json-fns/issues"
   },
-  "homepage": "https://github.com/rogeriopvl/json-fns#readme"
+  "homepage": "https://github.com/rogeriopvl/json-fns#readme",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "prettier": "^1.18.2",
+    "sinon": "^7.4.1",
+    "tape": "^4.11.0"
+  }
 }
