@@ -2,7 +2,7 @@
   "name": "json-fns",
   "version": "1.0.0",
   "description": "JSON parser/stringifier that supports functions and regexp",
-  "main": "index.js",
+  "main": "json-fns.js",
   "scripts": {
     "pretest": "npm run lint",
     "test": "tape *.test.js",
